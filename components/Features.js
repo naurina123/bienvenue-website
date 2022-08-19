@@ -7,7 +7,10 @@ const Features = ({ image, background, heading, body }) => {
             className=" lg:w-[40rem] lg:h-[40rem] lg:rounded-full w-[20rem] h-[20rem] rounded-full"
             style={{ background: background }}
           ></div>
-          <img src={image} className="w-[10rem] lg:w-[20rem] absolute" />
+          <img
+            src={image}
+            className="w-[10rem] lg:w-[20rem] absolute transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+          />
         </div>
         <div className="flex-1">
           <h2 className="features-heading w-[18rem] lg:w-[40rem]  mb-[2rem]">
