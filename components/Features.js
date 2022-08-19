@@ -1,3 +1,5 @@
+import Fade from 'react-reveal/Fade';
+
 const Features = ({ image, background, heading, body }) => {
   return (
     <div className="">
@@ -7,17 +9,16 @@ const Features = ({ image, background, heading, body }) => {
             className=" lg:w-[30rem] lg:h-[30rem] lg:rounded-full w-[20rem] h-[20rem] rounded-full"
             style={{ background: background }}
           ></div>
-          <img
-            src={image}
-            className="w-[10rem] lg:w-[20rem] absolute transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
-          />
+          <img src={image} className="w-[10rem] lg:w-[20rem] absolute transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" />
         </div>
-        <div className="flex-1">
-          <h2 className="features-heading w-[18rem] lg:w-[40rem]  mb-[2rem]">
+       <Fade right duration={1900}> <div className="flex-1">
+        
+          <h2 className="features-heading w-[18rem] lg:w-[40rem]  mb-[2rem] ">
             {heading}
           </h2>
           {body}
         </div>
+        </Fade>
       </div>
     </div>
   );
