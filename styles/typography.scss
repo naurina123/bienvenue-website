@@ -1,0 +1,24 @@
+h1 {
+  @apply font-[700] text-[48px] lg:text-[96px] leading-[58px] lg:leading-[116px];
+}
+
+h2 {
+  @apply font-[700] text-[30px]  lg:text-[60px]  leading-[35px] lg:leading-[85px];
+}
+
+h3 {
+  @apply font-[500] text-[22px] leading-[27px] lg:text-[30px] lg:leading-[36px];
+}
+
+.body-1 {
+  @apply text-[18px] leading-[25px] lg:text-[25px] lg:leading-[35px];
+}
+
+.body-2 {
+  @apply text-[16px] leading-[25px] lg:text-[22px] lg:leading-[35px];
+}
+ul {
+  li::marker {
+    color: #FDB912;
+  }
+}
