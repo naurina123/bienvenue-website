@@ -9,7 +9,7 @@ const Features = ({ image, background, heading, body }) => {
           ></div>
           <img
             src={image}
-            className="w-[10rem] lg:w-[20rem] absolute transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+            className="w-[10rem] lg:w-[15rem] absolute transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
           />
         </div>
         <div className="flex-1">
