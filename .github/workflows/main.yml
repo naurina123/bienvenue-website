@@ -14,6 +14,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
+      - run: npm install
       - run: npm run build
       - name: Archive production artifact
         uses: actions/upload-artifact@v3
@@ -24,16 +25,16 @@ jobs:
     name: Deploy 🚀
     needs: build
     runs-on: ubuntu-latest
-    steps: 
+    steps:
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Download artifact
         uses: actions/download-artifact@v3
-        with: 
+        with:
           name: html-file
       - name: Sync files to hosting
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
-        with: 
+        with:
           server: ftp.bienvenueco.com
           username: u397935042.naurina
           password: ${{ secrets.ftppassword }}
