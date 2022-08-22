@@ -55,7 +55,7 @@ const Form = () => {
           ></textarea>
         </div>
         
-        <div className="flex items-start w-full ">
+        <div className="flex items-start w-full lg:my-[2rem] my-[2rem]">
           <button className="bg-[#212121] hover:shadow-lg rounded-md w-[182px] h-[3rem] mt-[1rem] hover:border-solid hover:border-2 border-[#fcc53d]  hover:border-[#fcc53d]  hover:mix-blend-overlay hover:transition hover:ease-in">
             Send
           </button>

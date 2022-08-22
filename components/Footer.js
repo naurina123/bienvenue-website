@@ -16,8 +16,8 @@ const Footer = () => {
         </div>
         <div className="flex flex-1 flex-col justify-center gap-[1rem]">
           <h5 className="">Contact</h5>
-          <p>bienvenueco.com</p>
-          <p>+1 (416) 452 - 5630</p>
+          <p><a href="mailto:bienvenueco.com">bienvenueco.com</a></p>
+          <p><a href="tel:+14164525630">+1 (416) 452 - 5630</a></p>
           <p>
             1609 - 16 Harrison Garden Blvd, North York, Toronto, On, M2N 7J6
           </p>
@@ -33,7 +33,7 @@ const Footer = () => {
               placeholder="Email Address"
               className="rounded-l-md p-[1rem]  bg-[#323C41] h-[4rem] "
             />
-            <button className="bg-black rounded-r-md w-[100px] h-[4rem]  text-[.75rem] hover:shadow-md hover:bg-[#fcc53d] hover:transition hover:ease-in">
+            <button className="bg-black rounded-r-md w-[100px] h-[4rem] lg:text-[1rem] text-[.75rem] hover:shadow-md hover:bg-[#fcc53d] hover:transition hover:ease-in">
               Submit
             </button>
           </div>
