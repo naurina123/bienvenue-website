@@ -5,7 +5,7 @@ const Header = () => {
   useEffect(() => {
     if (typeof window !== "undefined") {
       window.addEventListener("scroll", () =>
-        setSmall(window.pageYOffset > 100)
+        setSmall(window.pageYOffset > 90)
       );
     }
   }, []);
@@ -17,8 +17,10 @@ const Header = () => {
       }`}
     >
       <img
-        src={small ? "images/sticky-logo.svg" : "images/logo-header.svg"}
-        className="my-[1rem] mx-[5rem] w-[10rem] h-[4rem] lg-my-[1rem] lg-mx-[5rem] lg-w-[10rem] lg-h-[4rem] "
+        src={small ? "images/Bienvenue.png" : "images/logo-header.svg"}
+        className={` my-[1rem] mx-[5rem] w-[10rem]  lg:my-[2rem] lg:mx-[5rem]  ${
+          small ? "h-[2rem] object-contain" : "h-[5rem]"
+        }`}
       />
     </div>
   );

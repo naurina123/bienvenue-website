@@ -56,7 +56,7 @@ const Form = () => {
         </div>
         
         <div className="flex items-start w-full ">
-          <button className="bg-[#212121] hover:shadow-lg rounded-md w-[182px] h-[3rem] mt-[1rem] hover:bg-[#fcc53d] hover:border-solid hover:border-2 border-[#fcc53d]  hover:border-[#fcc53d]  hover:mix-blend-overlay hover:transition hover:ease-in">
+          <button className="bg-[#212121] hover:shadow-lg rounded-md w-[182px] h-[3rem] mt-[1rem] hover:border-solid hover:border-2 border-[#fcc53d]  hover:border-[#fcc53d]  hover:mix-blend-overlay hover:transition hover:ease-in">
             Send
           </button>
         </div>
