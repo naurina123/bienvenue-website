@@ -9,9 +9,9 @@ const Footer = () => {
             restaurants and entertainment facilities across Canada.
           </p>
           <div className="flex gap-[1rem] ">
-            <a href=""><img src="images/twitter.svg" className="w-[2rem]" /></a>
-            <a href=""><img src="images/facebook.svg" className=" w-[2rem]" /></a>
-            <a href=""><img src="images/linkedin.svg" className=" w-[2rem]" /></a>
+            <a href="#" target="_blank"><img src="images/twitter.svg" className="w-[2rem]" /></a>
+            <a href="https://www.facebook.com/ORIO-103986585601560/" target="_blank"><img src="images/facebook.svg" className=" w-[2rem]" /></a>
+            <a href="https://www.linkedin.com/company/orio.tech/" target="_blank"><img src="images/linkedin.svg" className=" w-[2rem]" /></a>
           </div>
         </div>
         <div className="flex flex-1 flex-col justify-center gap-[1rem]">
