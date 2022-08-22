@@ -39,3 +39,8 @@ a {
   background-size: contain;
   @apply bg-right-bottom lg:bg-right;
 }
+
+.small{
+  @apply bg-white w-full z-[100];
+
+}

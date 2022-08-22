@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="lg:container mx-auto flex flex-col lg:flex-row gap-[3rem] p-[3rem]">
         <div className=" flex-1">
           <img src="images/footer-logo.svg" className="mb-[2rem]" />
-          <p className="body-2 mb-[2rem]">
+          <p className="mb-[2rem]">
             Bienvenue brings you buy one get one & discount offers for
             restaurants and entertainment facilities across Canada.
           </p>
@@ -27,13 +27,13 @@ const Footer = () => {
             Subscribe to get information, latest news and other interesting
             offers about
           </p>
-          <div className="flex justify-center items-center">
+          <div className="flex justify-start items-center">
             <input
               type="text"
               placeholder="Email Address"
-              className="rounded-l-md p-[1rem]  bg-[#323C41] h-[4rem]"
+              className="rounded-l-md p-[1rem]  bg-[#323C41] h-[4rem] "
             />
-            <button className="bg-black rounded-r-md w-[100px] h-[4rem]  text-[.75rem]">
+            <button className="bg-black rounded-r-md w-[100px] h-[4rem]  text-[.75rem] hover:shadow-md hover:bg-[#fcc53d] hover:transition hover:ease-in">
               Submit
             </button>
           </div>
