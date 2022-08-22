@@ -40,7 +40,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="border-t text-center p-[2rem]">
-        <p>Copyright 2022. Bienvenue. All Rights Reserved</p>
+        <p>Copyright 2022.<a href="https://uat.bienvenueco.com/" >Bienvenue.</a> All Rights Reserved</p>
       </div>
     </div>
   );
