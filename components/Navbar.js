@@ -1,7 +1,27 @@
 import Link from "next/link";
+import { MenuIcon } from "@heroicons/react/solid";
+import Drawer from "./Drawer";
+import { useState } from "react";
+
 const Navbar = () => {
+  const [state, setState] = useState(false);
+
+  const toggleDrawer = (open) => (event) => {
+    if (
+      event.type === "keydown" &&
+      (event.key === "Tab" || event.key === "Shift")
+    ) {
+      return;
+    }
+    console.log(open);
+    setState(open);
+  };
   return (
     <div>
+      <MenuIcon
+        className="h-[2rem] w-[2rem] lg:hidden flex "
+        onClick={toggleDrawer(true)}
+      />
       <ul className="hidden lg:flex">
         <li className="mr-6">
           <Link href="/">
@@ -14,6 +34,7 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
+      <Drawer state={state} toggleDrawer={toggleDrawer} />
     </div>
   );
 };
