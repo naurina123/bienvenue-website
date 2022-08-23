@@ -4,10 +4,10 @@ const Navbar = () => {
         <div>
             <ul className="flex ">
                 <li className="mr-6">
-                <Link href="/"><a className="text-white hover:text-white" >Home-1</a></Link> 
+                <Link href="/"><a className="text-black hover:text-black" >Home-1</a></Link> 
                 </li>
                 <li className="mr-6">
-                   <Link href="/home-2"><a className="text-white hover:text-white" >Home-2</a></Link> 
+                   <Link href="/home-2"><a className="text-black hover:text-black" >Home-2</a></Link> 
                 </li>
                 
             </ul>
