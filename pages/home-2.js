@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import Features from "../components/Features";
+import FeaturesSec from "../components/FeaturesSec";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Form from "../components/Form";
@@ -18,7 +18,7 @@ export default function Home() {
       <Header/>
       
       <Hero />
-      <Features
+      <FeaturesSec
         image="images/feature-img-1.svg"
         background="#d3fbe9"
         heading="What’s Featured"
@@ -42,7 +42,7 @@ export default function Home() {
           </div>
         }
       />
-      <Features
+      <FeaturesSec
         image="images/feature-img-2.svg"
         background="#ffe4b1"
         heading="Pricing"
@@ -65,7 +65,7 @@ export default function Home() {
           </ul>
         }
       />
-      <Features
+      <FeaturesSec
         image="images/feature-img-3.svg"
         background="#dce6ff"
         heading="Subscribe today & Start Collecting Pucks"
