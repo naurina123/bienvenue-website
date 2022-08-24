@@ -12,9 +12,10 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
-
 }
-body{overflow-x: hidden;}
+body {
+  overflow-x: hidden;
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -24,16 +25,6 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
-
 .hero-bg {
   background-image: url("../public/images/bg.svg");
   background-repeat: no-repeat;
@@ -41,7 +32,6 @@ a {
   @apply bg-right-bottom lg:bg-right;
 }
 
-.small{
+.small {
   @apply bg-white w-full z-[1000];
-
 }
