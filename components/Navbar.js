@@ -19,8 +19,9 @@ const Navbar = ({small}) => {
   return (
     <div>
       <MenuIcon
-        className="h-[2rem] w-[2rem] lg:hidden flex "
+        className={`h-[2rem] w-[2rem] lg:hidden flex ${small ? "text-[#fdb912]" : "text-white "}`}
         onClick={toggleDrawer(true)}
+        
       />
       <ul className={`hidden lg:flex ${small ? "text-[#fdb912]" : "text-white "}`}>
         <li className="mr-6">
