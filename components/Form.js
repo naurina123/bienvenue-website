@@ -17,7 +17,7 @@ const Form = () => {
         className="absolute left-0 bottom-0 lg:w-[15rem] w-[10rem]"
         alt=""
       />
-      <div className="min-h-[100vh] flex justify-center items-center flex-col w-full lg:w-[50rem] mx-auto relative z-[100] px-[2rem]">
+      <div className="min-h-[100vh] flex justify-center items-center flex-col w-full lg:w-[50rem] mx-auto relative z-[100] px-[2rem] py-[4rem]">
         <h2>Partner with us</h2>
         <p className="mb-[3rem]">Merchants Sign Up</p>
         <div className="flex flex-col md:flex-row gap-[1rem] mb-[1rem] w-full">

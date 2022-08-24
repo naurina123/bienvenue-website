@@ -25,7 +25,7 @@ const Header = () => {
           small ? "h-[2rem] object-contain" : "h-[5rem] "
         }`}
       />
-      <Navbar />
+      <Navbar small={small} />
     </div>
   );
 };
