@@ -3,7 +3,7 @@ import { MenuIcon } from "@heroicons/react/solid";
 import Drawer from "./Drawer";
 import { useState } from "react";
 
-const Navbar = ({small}) => {
+const Navbar = ({ small }) => {
   const [state, setState] = useState(false);
 
   const toggleDrawer = (open) => (event) => {
@@ -19,14 +19,17 @@ const Navbar = ({small}) => {
   return (
     <div>
       <MenuIcon
-        className={`h-[2rem] w-[2rem] lg:hidden flex ${small ? "text-[#fdb912]" : "text-white "}`}
+        className={`h-[2rem] w-[2rem] lg:hidden flex ${
+          small ? "text-[#fdb912]" : "text-white "
+        }`}
         onClick={toggleDrawer(true)}
-        
       />
-      <ul className={`hidden lg:flex ${small ? "text-[#fdb912]" : "text-white "}`}>
+      <ul
+        className={`hidden lg:flex ${small ? "text-[#fdb912]" : "text-white "}`}
+      >
         <li className="mr-6">
           <Link href="/">
-            <a >Home-1</a>
+            <a>Home-1</a>
           </Link>
         </li>
         <li className="mr-6">
