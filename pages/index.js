@@ -52,15 +52,15 @@ export default function Home() {
             <li className="">
               <h3 className="mt-[2rem]">Monthly</h3>
             </li> 
-            <p className="mt-[.3rem] max-w-[30rem] ">$ 10 </p> 
+            <p className="mt-[.3rem] max-w-[30rem] ">$25 (Save $75)</p> 
             <li>
               <h3 className="mt-[2rem]">Quarterly</h3>
             </li>
-            <p className="mt-[.3rem] max-w-[30rem]">$25 (Save $45)</p>
+            <p className="mt-[.3rem] max-w-[30rem]">$55 (Save $45)</p>
             <li>
               <h3 className="mt-[2rem]">Annually</h3>
             </li>
-            <p className="mt-[.3rem] max-w-[30rem]">$50 (Save $55)</p>
+            <p className="mt-[.3rem] max-w-[30rem]">$85 (Save $15)</p>
           </ul>
         }
       />
