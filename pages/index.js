@@ -57,11 +57,11 @@ export default function Home() {
               {" "}
               <h3 className="mt-[2rem]">Quarterly</h3>
             </li>
-            <p className="mt-[.3rem] max-w-[30rem]">$ 25 (1 quarter)</p>
+            <p className="mt-[.3rem] max-w-[30rem]">Save $45</p>
             <li>
               <h3 className="mt-[2rem]">Annually</h3>
             </li>
-            <p className="mt-[.3rem] max-w-[30rem]">$ 65 (1 year)</p>
+            <p className="mt-[.3rem] max-w-[30rem]">Save $55</p>
           </ul>
         }
       />
