@@ -29,12 +29,12 @@ const Navbar = ({ small }) => {
       >
         <li className="mr-6">
           <Link href="/">
-            <a>Home-1</a>
+            <a>For Merchant</a>
           </Link>
         </li>
         <li className="mr-6">
           <Link href="/home-2">
-            <a className="">Home-2</a>
+            <a className="">For Consumer</a>
           </Link>
         </li>
       </ul>
