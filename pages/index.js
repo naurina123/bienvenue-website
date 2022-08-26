@@ -49,19 +49,18 @@ export default function Home() {
         sectionBackground="images/section-background.svg"
         body={
           <ul className="list-disc ">
-            <li className="">
+            {/* <li className="">
               <h3 className="mt-[2rem]">Monthly</h3>
-            </li>
-            <p className="mt-[.3rem] max-w-[30rem] ">$ 10 (1 month)</p>
+            </li> */}
+            {/* <p className="mt-[.3rem] max-w-[30rem] ">$ 10 (1 month)</p> */}
             <li>
-              {" "}
               <h3 className="mt-[2rem]">Quarterly</h3>
             </li>
-            <p className="mt-[.3rem] max-w-[30rem]">Save $45</p>
+            <p className="mt-[.3rem] max-w-[30rem]">(Save $45)</p>
             <li>
               <h3 className="mt-[2rem]">Annually</h3>
             </li>
-            <p className="mt-[.3rem] max-w-[30rem]">Save $55</p>
+            <p className="mt-[.3rem] max-w-[30rem]">(Save $55)</p>
           </ul>
         }
       />
