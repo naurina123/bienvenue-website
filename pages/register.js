@@ -12,29 +12,29 @@ const Register = () => {
         <div className="  flex flex-col md:flex-row md:gap-[2rem] justify-between">
           <input
             type="text"
-            placeholder="Address"
+            placeholder="First Name"
             className="rounded-md p-[1rem] mb-[1.75rem] bg-[#8080802b] flex flex-1 w-full"
           />
           <input
             type="text"
-            placeholder="Business name"
+            placeholder="Last Name"
             className="rounded-md p-[1rem] mb-[1.75rem] bg-[#8080802b]  flex flex-1 w-full"
           />
         </div>
         <input
-          type="text"
-          placeholder="Address"
+          type="email"
+          placeholder="Email Address"
           className="rounded-md p-[1rem] mb-[1.75rem] bg-[#8080802b] w-full"
         />
 
         <input
           type="text"
-          placeholder="Address"
+          placeholder="City"
           className="rounded-md p-[1rem] mb-[1.75rem] bg-[#8080802b] w-full"
         />
         <input
           type="text"
-          placeholder="Address"
+          placeholder="Contact Number"
           className="rounded-md p-[1rem] mb-[1.75rem] bg-[#8080802b] w-full"
         />
         <div className="flex flex-1 flex-col ">
