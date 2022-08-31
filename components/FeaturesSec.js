@@ -14,13 +14,13 @@ const Features = ({ image, background, heading, body, sectionBackground }) => {
         <div className="flex-1 flex justify-center items-center h-[30rem] my-[10rem]">
           <img
             src={image}
-            className="w-[10rem] lg:w-[20rem] absolute transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+            className="w-[10rem] lg:w-[25rem] absolute transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
           />
         </div>
         <div className="relative">
           <div
             className=" lg:w-[30rem] lg:h-[30rem] lg:rounded-full w-[20rem] h-[20rem] rounded-full absolute"
-            style={{ background: background }}
+            // style={{ background: background }}
           ></div>
           <div
             className="flex-1 relative z-[100]"

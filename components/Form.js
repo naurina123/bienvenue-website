@@ -1,4 +1,4 @@
-import Pulse from 'react-reveal/Pulse';
+import Pulse from "react-reveal/Pulse";
 const Form = () => {
   return (
     <div className="primary-bg text-white relative">
@@ -19,7 +19,7 @@ const Form = () => {
       />
       <div className="min-h-[100vh] flex justify-center items-center flex-col w-full lg:w-[50rem] mx-auto relative z-[100] px-[2rem] py-[4rem]">
         <h2>Partner with us</h2>
-        <p className="mb-[3rem]">Merchants Sign Up</p>
+        <p className="mb-[3rem] text-[white]">Merchants Sign Up</p>
         <div className="flex flex-col md:flex-row gap-[1rem] mb-[1rem] w-full">
           <input
             type="text"
@@ -44,17 +44,29 @@ const Form = () => {
             className="rounded-md p-[1rem] flex-1"
           />
         </div>
+        <div className="flex flex-col md:flex-row gap-[1rem] mb-[1rem] w-full">
+          <input
+            type="text"
+            placeholder="City"
+            className="rounded-md p-[1rem] flex-1"
+          />
+          <input
+            type="text"
+            placeholder="District"
+            className="rounded-md p-[1rem] flex-1"
+          />
+        </div>
         <div className="flex  w-full">
           <textarea
             name=""
             id=""
             cols="30"
-            rows="10"
+            rows="8"
             placeholder="Message"
             className="rounded-md p-[1rem] flex-1"
           ></textarea>
         </div>
-        
+
         <div className="flex items-start w-full lg:my-[2rem] my-[2rem]">
           <button className="bg-[#212121] hover:shadow-lg rounded-md w-[182px] h-[3rem] mt-[1rem] hover:border-solid hover:border-2 border-[#fcc53d]  hover:border-[#fcc53d]  hover:mix-blend-overlay hover:transition hover:ease-in">
             Send

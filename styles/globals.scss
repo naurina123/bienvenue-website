@@ -26,12 +26,36 @@ a {
 }
 
 .hero-bg {
-  background-image: url("../public/images/bg.svg");
+  background-image: url("../public/images/merchant-bg.svg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  @apply bg-right-bottom lg:bg-right;
+}
+.heroConsumer-bg{
+  background-image: url("../public/images/consumer-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   @apply bg-right-bottom lg:bg-right;
 }
 
 .small {
   @apply bg-white w-full z-[1000];
+}
+
+.react-multi-carousel-dot--active button{
+  background: #f7a50f !important;
+    border: #f7a50f !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+.react-multiple-carousel__arrow::before{
+  font-size: 35px !important;
+    font-weight: 900 !important;
+    color: #f7a50f !important;
+}
+.react-multiple-carousel__arrow--right::before{
+  background: white !important;
+}
+.react-multiple-carousel__arrow--left::before{
+  background: white !important;
 }

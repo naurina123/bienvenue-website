@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import FeaturesSec from "../components/FeaturesSec";
+import FeaturesSwap from "../components/FeaturesSwap";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Form from "../components/Form";
@@ -19,7 +20,7 @@ export default function Home() {
       
       <Hero />
       <FeaturesSec
-        image="images/feature-img-1.svg"
+        image="images/11.svg"
         background="#d3fbe9"
         heading="What’s Featured"
         // sectionBackground="images/section-background.svg"
@@ -42,13 +43,14 @@ export default function Home() {
           </div>
         }
       />
-      <FeaturesSec
-        image="images/feature-img-2.svg"
+      <FeaturesSwap
+        image="images/32.svg"
         background="#ffe4b1"
         heading="Pricing"
         sectionBackground="images/section-background.svg"
+        className=""
         body={
-          <ul className="list-disc text-black ">
+          <ul className="list-disc text-black flex items-center flex-col">
             <li className="">
               <h3 className="mt-[2rem]">Monthly</h3>
             </li> 
@@ -65,7 +67,7 @@ export default function Home() {
         }
       />
       <FeaturesSec
-        image="images/feature-img-3.svg"
+        image="images/31.svg"
         background="#dce6ff"
         heading="Subscribe today & Start Collecting Pucks"
         // sectionBackground="images/section-background.svg"

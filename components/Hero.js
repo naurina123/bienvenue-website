@@ -18,7 +18,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="flex-1 flex justify-center items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-          <img src="images/hero.svg" className="w-[35rem]" />
+          <img src="images/merchant-hero-vector.svg" className="w-[35rem] h-[35rem]" />
         </div>
       </div>
     </div>

@@ -7,18 +7,24 @@ h2 {
 }
 
 h3 {
-  @apply font-[500] text-[22px] leading-[27px] lg:text-[30px] lg:leading-[36px];
+  @apply font-[500] text-[22px] leading-[27px] lg:text-[22px] lg:leading-[36px] text-[#2E2E2E] ;
 }
 
 .body-1 {
-  @apply text-[18px] leading-[25px] lg:text-[25px] lg:leading-[35px];
+  @apply text-[18px] leading-[25px] lg:text-[25px] lg:leading-[35px]  text-[white];
 }
 
 .body-2 {
-  @apply text-[16px] leading-[25px] lg:text-[20px] lg:leading-[35px];
+  @apply text-[16px] leading-[25px] lg:text-[20px] lg:leading-[35px] text-[white];
 }
 ul {
   li::marker {
     color: #fdb912;
   }
+  
+}
+h2.features-swap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
