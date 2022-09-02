@@ -1,7 +1,7 @@
 const Hero = () => {
   return (
     <div className="primary-bg hero-bg">
-      <div className="min-h-[100vh] flex flex-col lg:flex-row items-center justify-center mx-auto lg:container py-[10rem] px-[3rem] gap-[2rem] lg:gap-[5rem]">
+      <div className="min-h-[100vh] flex justify-center items-center sm:container mx-auto lg:flex-row flex-col lg:py-auto py-[9rem] px-[2rem]">
         <div
           className="flex-1 text-white"
           data-aos="fade-right"
@@ -18,7 +18,7 @@ const Hero = () => {
           </p>
         </div>
         <div className="flex-1 flex justify-center items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-          <img src="images/merchant-hero-vector.svg" className="w-[35rem] h-[35rem]" />
+          <img src="images/merchant-hero-vector.svg" className="lg:w-[35rem] lg:h-[35rem] w-[20rem] h-[20rem]" />
         </div>
       </div>
     </div>

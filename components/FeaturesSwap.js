@@ -32,10 +32,10 @@ const FeaturesSwap = ({ image, background, heading, body, sectionBackground }) =
             {body}
           </div>
         </div>
-        <div className="flex-1 flex justify-center items-center h-[30rem] my-[10rem]">
+        <div className="flex-1 flex justify-center items-center">
           <img
             src={image}
-            className="w-[10rem] lg:w-[25rem] absolute transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+            className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
           />
         </div>
       </div>

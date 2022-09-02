@@ -10,19 +10,19 @@ const BarcodeSec = ({ image, background, heading, body, sectionBackground }) => 
       //   backgroundImage: `url(${sectionBackground})`,
       // }}
     >
-      <div className="min-h-[100vh] flex flex-col lg:flex-row items-center justify-center mx-auto lg:container p-[3rem] gap-[2rem] lg:gap-[5rem]">
-      <div className="flex-1 flex justify-center items-center relative">
+      <div className="min-h-[100vh] flex flex-col lg:flex-row items-center justify-center mx-auto lg:container ">
+      <div className="flex-1 flex justify-center items-center lg:order-first order-last">
           <div
-            className=" lg:w-[30rem] lg:h-[30rem] lg:rounded-full w-[20rem] h-[20rem] rounded-full"
+            className=" lg:rounded-full rounded-full"
             style={{ background: background }}
           ></div>
           <img
             src={image}
-            className="w-[10rem] lg:w-[20rem] absolute transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
+            className="w-[10rem] lg:w-[17rem]  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300"
           />
         </div>
         <div
-          className="flex-1"
+          className="flex-1 px-[2rem] lg:px-[2rem] flex justify-center flex-col"
           data-aos="fade-left"
           data-aos-offset="200"
           data-aos-duration="1000"
@@ -30,7 +30,7 @@ const BarcodeSec = ({ image, background, heading, body, sectionBackground }) => 
           data-aos-mirror="true"
           data-aos-once="false"
         >
-          <h2 className="features-heading w-[18rem] lg:w-[40rem]  mb-[2rem] ">
+          <h2 className="features-heading">
             {heading}
           </h2>
           {body}

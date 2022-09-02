@@ -1,7 +1,22 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import { useState } from "react";
 
 const Partners = () => {
+  const [testimonial, setTestimonial] = useState([
+    {
+      avatar: "",
+      text: " quisque orci lectus sed nulla. amet, consectetur adipiscing",
+    },
+    {
+      avatar: "",
+      text: "In eu rhoncus urna facilisis quisque orci lectus sed nulla. amet, consectetur adipiscing",
+    },
+    {
+      avatar: "",
+      text: "consectetur adipiscing elit. In eu rhoncus urna facilisis quisque orci lectus sed nulla. amet, consectetur adipiscing",
+    },
+  ]);
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -22,16 +37,11 @@ const Partners = () => {
     },
   };
   return (
-    <div className=" text-[#2E2E2E]  min-h-[100vh]">
-      <div className="flex justify-center items-center flex-col w-full lg:w-[50rem] mx-auto relative z-[100] px-[2rem] py-[4rem]">
-        <img src="images/waves.svg" className="absolute right-0 top-0" alt="" />
-        <img
-          src="images/waves.svg"
-          className="absolute left-0 bottom-0 "
-          alt=""
-        />
-        <h2 className="my-[5rem]">What our partners say about the BIENVENUE</h2>
-        <p className="mb-[3rem] text-[white]">Merchants Sign Up</p>
+    <div className=" text-[#2E2E2E] min-h-[100vh] px-[2rem] lg:px-[2rem]">
+      <div className="flex justify-center items-center flex-col">
+        <h2 className="text-center mb-2">
+          What our partners say about the BIENVENUE
+        </h2>
       </div>
       <Carousel
         swipeable={false}
@@ -50,38 +60,28 @@ const Partners = () => {
         // deviceType={this.props.deviceType}
         dotListClass="custom-dot-list-style"
         itemClass="carousel-item-padding-40-px"
-        className="my-[3rem] py-[4rem] relative"
+        className="h-[40rem]"
       >
-        <div className="flex justify-center ">
-          <img src="images/testimonial-bg.svg" />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu
-            rhoncus urna facilisis quisque orci lectus sed nulla. amet,
-            consectetur adipiscing Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. In eu rhoncus urna facilisis quisque orci lectus
-            sed nulla. amet, consectetur adipiscing
-          </p>
-        </div>
-        <div className="flex justify-center">
-          <img src="images/testimonial-bg.svg" />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu
-            rhoncus urna facilisis quisque orci lectus sed nulla. amet,
-            consectetur adipiscing Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. In eu rhoncus urna facilisis quisque orci lectus
-            sed nulla. amet, consectetur adipiscing
-          </p>
-        </div>
-        <div className="flex justify-center">
-          <img src="images/testimonial-bg.svg" />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eu
-            rhoncus urna facilisis quisque orci lectus sed nulla. amet,
-            consectetur adipiscing Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit. In eu rhoncus urna facilisis quisque orci lectus
-            sed nulla. amet, consectetur adipiscing
-          </p>
-        </div>
+        {testimonial.map((test) => (
+          <div className="relative flex justify-center items-center ">
+            <img
+              src="images/waves1.svg"
+              className="absolute bottom-0 left-[21rem] lg:bottom-6 lg:left-[21rem]"
+            />
+            <img
+              src="images/waves.svg"
+              className="absolute -top-9 right-[40rem] lg:-top-9 lg:right-[20rem]"
+            />
+            <img src="images/testimonial-bg.svg" className="z-[10]" />
+            <p className="absolute w-[18rem] py-[4rem] mb-[3rem] text-white z-[10] text-[0.95rem] lg:w-[30rem] lg:py-[0rem]">
+              {test.text}
+            </p>
+            <img
+              src="images/avatar.svg"
+              className="z-[10] rounded absolute -bottom-[6.25rem] left-[21.5rem] w-[7rem] h-[7rem] lg:-bottom-[6.25rem] lg:left-[26.5rem] lg:w-[9rem] lg:h-[9rem]"
+            />
+          </div>
+        ))}
       </Carousel>
     </div>
   );

@@ -11,6 +11,7 @@ import Navbar from "../components/Navbar";
 import Layout from "../components/Layout";
 import BarcodeSec from "../components/BarcodeSec";
 import Partners from "../components/Partners";
+import MerchantSec from "../components/MerchantSec";
 
 export default function Home() {
   const ourSolution = (subtitle, image) => (
@@ -30,14 +31,14 @@ export default function Home() {
       <Header />
       <HeroConsumer />
       <div className="min-h-[100vh] container ">
-        <div className=" flex items-center justify-center flex-col py-[6rem] text-center">
+        <div className=" flex items-center justify-center flex-col py-[4rem] lg:py-[6rem] text-center">
           <h2>Our solutions</h2>
           <p>
             It is a long established fact that a reader will be distracted by
             the readable content.
           </p>
         </div>
-        <div className="flex flex-col md:flex-row gap-[3rem] p-[3rem]">
+        <div className="flex flex-col md:flex-row gap-[3rem] p-[3rem] lg:p-[3rem]">
           {ourSolution("Digital Advertising", "images/digital-marketing.svg")}
           {ourSolution(
             "Enjoy more Brand visibilty",
@@ -67,7 +68,7 @@ export default function Home() {
         heading="Barcode"
         sectionBackground="images/section-background.svg"
         body={
-          <p className="mt-[.3rem] max-w-[30rem] ">
+          <p className="max-w-[30rem]  ">
             It is a long established fact that a reader will be distracted by
             the readable content It is a long established fact that a reader
             will be distracted by the readable conent It is a long established
@@ -75,13 +76,13 @@ export default function Home() {
           </p>
         }
       />
-      <Features
+      <MerchantSec
         image="images/growing.svg"
         heading="Start growing with
           the BIENVENUE today"
         body={
           <div>
-            <p>
+            <p className="">
               It is a long established fact that a reader will be distracted by
               the reader will be distracted by the readable content.
             </p>
