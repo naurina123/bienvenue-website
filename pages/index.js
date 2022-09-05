@@ -14,10 +14,12 @@ import Partners from "../components/Partners";
 import MerchantSec from "../components/MerchantSec";
 
 export default function Home() {
-  const ourSolution = (subtitle, image) => (
+  const ourSolution = (subtitle, image, title) => (
     <div className="flex flex-1 flex-col justify-center items-center  bg-[#F7F9FB] p-[3rem] text-center gap-[1rem]">
-      <img src={image} />
-      <h3>{subtitle}</h3>
+      <img src={image}/>
+      <h3 className="h-[3rem]">{subtitle}</h3>
+      {/* <p>{title}</p> */}
+      
     </div>
   );
 
@@ -31,20 +33,17 @@ export default function Home() {
       <Header />
       <HeroConsumer />
       <div className="min-h-[100vh] container ">
-        <div className=" flex items-center justify-center flex-col py-[4rem] lg:py-[6rem] text-center">
-          <h2>Our solutions</h2>
-          <p>
+        <div className=" flex items-center justify-center flex-col py-[4rem] lg:pt-[6rem] text-center">
+          <h2>Why Bienvenue? </h2>
+          {/* <p>
             It is a long established fact that a reader will be distracted by
             the readable content.
-          </p>
+          </p> */}
         </div>
-        <div className="flex flex-col md:flex-row gap-[3rem] p-[3rem] lg:p-[3rem]">
-          {ourSolution("Digital Advertising", "images/digital-marketing.svg")}
-          {ourSolution(
-            "Enjoy more Brand visibilty",
-            "images/brand-marketing.svg"
-          )}
-          {ourSolution("Data Reporting", "images/reporting.svg")}
+        <div className="flex flex-col md:flex-row gap-[3rem] px-[3rem] lg:px-[3rem]">
+          {ourSolution("More Visibility", "images/digital-marketing.svg", "Our inhouse advertising solutions will give you the audience you need and increase sales!Turn customers into regulars by giving them the full experience")}
+          {ourSolution("More Sales", "images/reporting.svg", "Learn your customers needs and wants using our data insights")}
+          {ourSolution("More Footfall", "images/brand-marketing.svg" , "Be featured not just on our app but also on all social media platforms!")}
         </div>
       </div>
       <Features
@@ -68,7 +67,7 @@ export default function Home() {
         heading="Barcode"
         sectionBackground="images/section-background.svg"
         body={
-          <p className="max-w-[30rem]  ">
+          <p className="max-w-[30rem]  mb-[2rem]  ">
             It is a long established fact that a reader will be distracted by
             the readable content It is a long established fact that a reader
             will be distracted by the readable conent It is a long established
@@ -82,7 +81,7 @@ export default function Home() {
           the BIENVENUE today"
         body={
           <div>
-            <p className="">
+            <p className="mb-[2rem] py-[3rem]">
               It is a long established fact that a reader will be distracted by
               the reader will be distracted by the readable content.
             </p>

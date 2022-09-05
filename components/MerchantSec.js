@@ -18,7 +18,7 @@ const MerchantSec = ({
     >
       <div className=" min-h-[100vh] flex flex-col lg:flex-row items-center justify-center mx-auto lg:container p-[3rem] gap-[1rem] lg:gap-[5rem]">
         <div
-          className="flex-1"
+          className="flex-1 items-start flex flex-col"
           data-aos="fade-left"
           data-aos-offset="200"
           data-aos-duration="1000"

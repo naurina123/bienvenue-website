@@ -37,8 +37,8 @@ const Partners = () => {
     },
   };
   return (
-    <div className=" text-[#2E2E2E] min-h-[100vh] px-[2rem] lg:px-[2rem]">
-      <div className="flex justify-center items-center flex-col">
+    <div className=" text-[#2E2E2E] min-h-[80vh] lg:min-h-[100vh] px-[2rem] lg:px-[2rem] py-[0rem] lg:py-[3rem]">
+      <div className="flex justify-center items-center flex-col py-[2rem] px-[0rem] lg:py-[4rem] lg:pt-[6rem] lg:px-[17rem] text-center">
         <h2 className="text-center mb-2">
           What our partners say about the BIENVENUE
         </h2>
@@ -60,17 +60,17 @@ const Partners = () => {
         // deviceType={this.props.deviceType}
         dotListClass="custom-dot-list-style"
         itemClass="carousel-item-padding-40-px"
-        className="h-[40rem]"
+        className="h-[20rem] lg:h-[40rem]"
       >
         {testimonial.map((test) => (
-          <div className="relative flex justify-center items-center ">
+          <div className="relative flex justify-center items-center  ">
             <img
               src="images/waves1.svg"
-              className="absolute bottom-0 left-[21rem] lg:bottom-6 lg:left-[21rem]"
+              className="absolute bottom-0 left-[1rem] lg:bottom-6 lg:left-[21rem] w-[7rem] lg:w-[auto] "
             />
             <img
               src="images/waves.svg"
-              className="absolute -top-9 right-[40rem] lg:-top-9 lg:right-[20rem]"
+              className="absolute -top-9 right-[0rem] lg:-top-9 lg:right-[20rem] w-[7rem] lg:w-[auto]"
             />
             <img src="images/testimonial-bg.svg" className="z-[10]" />
             <p className="absolute w-[18rem] py-[4rem] mb-[3rem] text-white z-[10] text-[0.95rem] lg:w-[30rem] lg:py-[0rem]">
@@ -78,7 +78,7 @@ const Partners = () => {
             </p>
             <img
               src="images/avatar.svg"
-              className="z-[10] rounded absolute -bottom-[6.25rem] left-[21.5rem] w-[7rem] h-[7rem] lg:-bottom-[6.25rem] lg:left-[26.5rem] lg:w-[9rem] lg:h-[9rem]"
+              className="z-[10] rounded absolute -bottom-[4.25rem] left-[0rem] w-[5rem] h-[5rem] lg:-bottom-[6.25rem] lg:left-[26.5rem] lg:w-[9rem] lg:h-[9rem]"
             />
           </div>
         ))}

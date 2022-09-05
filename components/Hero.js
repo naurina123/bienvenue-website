@@ -11,7 +11,7 @@ const Hero = () => {
           data-aos-mirror="true"
           data-aos-once="false"
         >
-          <h1>Spend Less, Do More</h1>
+          <h1>Spend Less, Earn More</h1>
           <p className="body-1 mt-[2rem]">
             Bienvenue brings you buy one get one & discount offers for
             restaurants and entertainment facilities across Canada.

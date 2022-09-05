@@ -15,13 +15,13 @@ const Header = () => {
 
   return (
     <div
-      className={`flex transition ease-in-out duration-300 w-full drop-shadow-lg fixed justify-between px-[3rem] items-center ${
+      className={`flex transition ease-in-out duration-300 w-full drop-shadow-lg fixed justify-between px-[1.5rem] lg:px-[3rem] items-center ${
         small ? "small" : ""
       }`}
     >
       <img
         src={small ? "images/Bienvenue.png" : "images/logo-header.svg"}
-        className={` my-[1rem] mx-[1rem]  w-[10rem]  lg:my-[2rem]  ${
+        className={` my-[1rem] mx-[0rem]  w-[10rem]  lg:my-[2rem]  ${
           small ? "h-[2rem] object-contain" : "h-[5rem] "
         }`}
       />
