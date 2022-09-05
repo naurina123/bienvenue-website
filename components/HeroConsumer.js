@@ -17,7 +17,7 @@ const HeroConsumer = () => {
               Bienvenue brings you buy one get one & discount offers for
               restaurants and entertainment facilities across Canada.
             </p> */}
-              <Button className="bg-[#212121] hover:bg-[#212121] text-white p-[1rem] rounded-[12px] h-[55px] w-[170px] my-[2rem]">
+              <Button className="bg-[#2e2e2e] hover:bg-[#212121] text-white p-[1rem] rounded-[12px] h-[55px] w-[170px] my-[2rem]">
               Join us now
             </Button>
           </div>
