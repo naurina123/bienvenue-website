@@ -41,7 +41,7 @@ const Register = () => {
           {/* <Button className="bg-[#fdb912] hover:bg-[#fdb912] text-white p-[1rem] rounded-[12px] h-[55px] w-[170px]">
             Join us now
           </Button> */}
-          <button className="flex text-white bg-[#fdb912]  border-0 py-2 px-6 focus:outline-none hover:bg-[#fdb912]  rounded-[12px] h-[55px] w-[170px] my-[2rem]">Join Us Now</button>
+          <button className="flex text-white bg-[#fdb912]  border-0 py-2 px-6 focus:outline-none hover:bg-[#fdb912]  rounded-[12px] h-[55px] w-[170px] ">Join Us Now</button>
 
         </div>
       </form>
