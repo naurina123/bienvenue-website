@@ -85,7 +85,7 @@ export default function Home() {
               It is a long established fact that a reader will be distracted by
               the reader will be distracted by the readable content.
             </p>
-          <button className="flex text-white bg-[#fdb912]  border-0 py-2 px-6 focus:outline-none hover:bg-[#fdb912]  rounded-[12px] h-[55px] w-[170px]">Join Us Now</button>
+          <button className="flex justify-center items-center text-white bg-[#fdb912]  border-0 py-2 px-6 focus:outline-none hover:bg-[#fdb912]  rounded-[12px] h-[55px] w-[170px]">Join Us Now</button>
 
             {/* <Button className="bg-[#fdb912] hover:bg-[#fdb912] text-white p-[1rem] rounded-[12px] h-[55px] w-[170px] my-[2rem]">
               Join us now
