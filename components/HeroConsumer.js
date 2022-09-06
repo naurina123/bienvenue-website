@@ -20,7 +20,7 @@ const HeroConsumer = () => {
           {/* <Button className="text-white p-[1rem] rounded-[12px] h-[55px] w-[170px] my-[2rem]">
             Join us now
           </Button> */}
-          <button className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Join Now</button>
+          <button className="flex text-white bg-[#2e2e2e]  border-0 py-2 px-6 focus:outline-none hover:bg-[#2e2e2e] rounded">Join Now</button>
         </div>
         <div className="flex-1 flex justify-center items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
           <img
