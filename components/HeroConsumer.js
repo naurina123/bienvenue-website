@@ -17,9 +17,10 @@ const HeroConsumer = () => {
               Bienvenue brings you buy one get one & discount offers for
               restaurants and entertainment facilities across Canada.
             </p> */}
-          <Button className="text-white p-[1rem] rounded-[12px] h-[55px] w-[170px] my-[2rem]">
+          {/* <Button className="text-white p-[1rem] rounded-[12px] h-[55px] w-[170px] my-[2rem]">
             Join us now
-          </Button>
+          </Button> */}
+          <button className="flex ml-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Join Now</button>
         </div>
         <div className="flex-1 flex justify-center items-center transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
           <img
