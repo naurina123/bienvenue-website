@@ -1,6 +1,7 @@
 import Pulse from "react-reveal/Pulse";
 const Form = () => {
   return (
+    
     <div className="primary-bg text-white relative">
       <img
         src="images/form-bg-1.svg"
